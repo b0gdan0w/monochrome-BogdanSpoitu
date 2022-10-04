@@ -390,7 +390,7 @@
 
  .header-main i {
      gap: 10px;
-     /*proprietatea asta nu se aplica si nu imi dau seama ce proprietate ii face override*/
+     /* nu prea am inteles cum se aplica proprietatea asta */
      font-size: 29px;
  }
 
@@ -429,4 +429,107 @@
      outline: inherit;
  }
 
+ .header-primary {
+     background-color: #2b2b2b;
+ }
+
+ .nav-primary>ul {
+     display: inline-flex;
+     align-items: center;
+     margin-top: 10px;
+     margin-bottom: 10px;
+     justify-content: space-between;
+     gap: 135px;
+ }
+
+ .nav-primary li {
+     display: inline-flex;
+     align-items: center;
+     justify-content: space-between;
+ }
+
+ .nav-primary a {
+     color: white;
+     text-transform: uppercase;
+     font-size: 20px;
+ }
+
  /* header end */
+
+ /* main section start */
+ .home-catalog-preview>header {
+     margin: 10px auto;
+     text-align: center;
+     font-weight: bold;
+     font-style: normal;
+     font-size: 35px;
+ }
+
+ .home-catalog-preview ul {
+     display: flex;
+     justify-content: space-between;
+ }
+
+ .home-catalog-preview ul li {
+     display: block;
+ }
+
+ .product-tile .product-tile-image a {
+     position: relative;
+ }
+
+ .product-tile .product-tile-image {
+     width: 100%;
+ }
+
+ .product-tile .product-tile-image img {
+     width: 100%;
+ }
+
+ .product-tile-image i {
+     color: #2b2b2b;
+     font-weight: 500;
+     position: absolute;
+     z-index: 1;
+ }
+
+ .home-content {
+     display: inline-flex;
+     justify-content: space-between;
+     margin: 78px 0 100px 0;
+ }
+
+ /* main section end */
+
+ /* footer start */
+ .footer {
+     background-color: #e8e8e8;
+ }
+
+ .footer nav {
+     display: block;
+ }
+
+ .footer-nav ul {
+     display: inline-block;
+     vertical-align: top;
+     margin: 40px 24px;
+ }
+
+ .footer-nav ul:first-child {
+     margin-left: 0;
+ }
+
+ .footer-newsletter form ul {
+     display: inline-block;
+     vertical-align: top;
+     margin: 0 30px;
+ }
+
+ .footer-newsletter label[for="subscribe"] {
+     font-family: 'Roboto';
+     font-size: 16px;
+     font-weight: normal;
+ }
+
+ /* footer start */
